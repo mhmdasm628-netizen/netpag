@@ -1,7 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
-import { supabase } from '@/lib/supabaseClient'
-
+import { supabase } from '../../lib/supabaseClient'
 export default function AdminPage() {
   const [price, setPrice] = useState('')
   const [name, setName] = useState('')
